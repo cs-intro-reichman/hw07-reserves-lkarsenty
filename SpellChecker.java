@@ -28,7 +28,7 @@ public class SpellChecker {
 			return word1.length();
 		}
 
-		if (word1.length() == 1 || word2.length() == 1){
+		if (word1.length() == 1 && word2.length() == 1){
 			if (word1.equals(word2)) {
 				return 0;
 			} else {
